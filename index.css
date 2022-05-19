@@ -1,0 +1,422 @@
+body {
+  padding:0;
+  margin:0;
+}
+
+.dance-text {
+  float: left;
+  margin-left:-40%;
+  color: white;
+  text-align: left;
+  font-size:90%;
+  font-weight: 900;
+  
+  padding-top:20px;
+  padding-bottom:10px;
+  padding-left:35px;
+  padding-right:35px;
+
+  border:2px solid whitesmoke;
+  border-radius: 50px;
+}
+
+ul, li {
+ float: left;
+}
+
+li {
+ border:1px solid whitesmoke;
+ list-style: none;
+ font-size:60%;
+ margin-top:5px;
+ margin-left:30px;
+ color:whitesmoke;
+}
+
+.container0 {
+  position:fixed;
+  display:flex;
+  justify-content: center;
+  width:100vw;
+  overflow:hidden;
+  z-index:5;
+  background-color:#B09B2C;
+}
+
+.about {
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-left:50px;
+  padding-right:50px;
+  
+  border-radius: 50px;
+  background-image: linear-gradient(to right,#1c1f4c,#00848c);
+}
+
+.art {
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-left:40px;
+  padding-right:40px;
+  
+  border-radius: 50px;
+  background-image: linear-gradient(to right,#00848c,#037272);
+}
+
+.cont {
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-left:30px;
+  padding-right:30px;
+  
+  border-radius: 50px;
+  background-image: linear-gradient(to right,#037272,#1c1f4c);
+}
+
+.container {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height:100vh;
+  width:100vw;
+  overflow:hidden;
+}
+
+.art1 {
+  position: absolute;
+  top:13%;
+  
+  height:20%;
+  width:90%;
+  border-radius:300px;
+
+  background-image: -webkit-linear-gradient(left, #1c1f4c, #00848c);
+  background-image: -moz-linear-gradient(left, #1c1f4c, #00848c);
+  background-image: -o-linear-gradient(left, #1c1f4c, #00848c);
+  background-image: linear-gradient(to right, #1c1f4c, #00848c);
+}
+
+.art1 p {
+  text-align:center;
+  color:white;
+  font-size:100%;
+}
+
+.intro1 {
+  position: absolute;
+  top:25%;
+  left:20%;
+  
+  height:60%;
+  width:70%;
+  background-color: white;
+  border-radius: 150px;
+  overflow:hidden;
+}
+
+.intro1 p {
+  margin-left:10%;
+  width: 80%;
+  text-align: right;
+  color:black;
+}
+
+.arrow1 {
+  position: absolute;
+  top:45%;
+  left:5%;
+  width:5%;
+  height:20%;
+  transform: rotate(180deg);
+}
+
+/*Contents1*/
+.Article1-title {
+  position: absolute;
+  top:-1%;
+  left:15%;
+  font-size: 300%;
+  font-weight: bold;
+}
+
+.arrowCont1 {
+  position: absolute;
+  top:3%;
+  left:5%;
+  width:5%;
+  height:7%;
+  transform: rotate(180deg);
+}
+
+.img1 {
+  position: absolute;
+  top:12%;
+  
+  height:40%;
+  width:70%;
+}
+
+.Article1-content {
+  position: absolute;
+  top:50%;
+  left:2%;
+  padding:20px;
+  font-size:150%;
+}
+/*EndOfContents1*/
+
+
+/*ARTICLE 2*/
+.art2 {
+  position: absolute;
+  top:37%;
+ 
+  height:20%;
+  width:90%;
+  border-radius:300px;
+
+  background-image: linear-gradient(to right,#037272,#1c1f4c);
+}
+
+.art2 p {
+  text-align:center;
+  color:white;
+  font-size:100%;
+}
+
+.intro2 {
+  position: absolute;
+  top:25%;
+  right:20%;
+  
+  height:60%;
+  width:70%;
+  background-color: white;
+  border-radius: 150px;
+  overflow:hidden;
+}
+
+.intro2 p {
+  margin-left:10%;
+  width: 80%;
+  text-align: left;
+  color:black;
+}
+
+.arrow2 {
+  position: absolute;
+  top:45%;
+  right:5%;
+  width:5%;
+  height:20%;
+}
+
+/*ENDOFARTICLE2*/
+
+/*Contents2*/
+.Article2-title {
+  position: absolute;
+  top:-1%;
+  left:15%;
+  font-size: 300%;
+  font-weight: bold;
+}
+
+.arrowCont2 {
+  position: absolute;
+  top:3%;
+  left:5%;
+  width:5%;
+  height:7%;
+  transform: rotate(180deg);
+}
+
+.img2 {
+  position: absolute;
+  top:12%;
+  
+  height:40%;
+  width:70%;
+}
+
+.Article2-content {
+  position: absolute;
+  top:50%;
+  left:2%;
+  padding:20px;
+  font-size:150%;
+}
+/*endofcontents*/
+
+/*article3*/
+.art3 {
+  position: absolute;
+  top:60%;
+  
+  height:20%;
+  width:90%;
+  border-radius:300px;
+
+  background-image: linear-gradient(to right,#00848c,#037272);
+}
+
+.art3 p {
+  text-align: center;
+  color:white;
+  font-size:100%;
+}
+
+.intro3 {
+  position: absolute;
+  top:25%;
+  left:20%;
+  
+  height:60%;
+  width:70%;
+  background-color: white;
+  border-radius: 150px;
+  overflow:hidden;
+}
+
+.intro3 p {
+  margin-left:10%;
+  width: 80%;
+  text-align: right;
+  color:black;
+}
+
+.arrow3 {
+  position: absolute;
+  top:45%;
+  left:5%;
+  width:5%;
+  height:20%;
+  transform: rotate(180deg);
+}
+/*endofarticle3*/
+
+/*Contents2*/
+.Article3-title {
+  position: absolute;
+  top:-1%;
+  left:15%;
+  font-size: 300%;
+  font-weight: bold;
+}
+
+.arrowCont3 {
+  position: absolute;
+  top:3%;
+  left:5%;
+  width:5%;
+  height:7%;
+  transform: rotate(180deg);
+}
+
+.img3 {
+  position: absolute;
+  top:12%;
+  
+  height:40%;
+  width:70%;
+}
+
+.Article3-content {
+  position: absolute;
+  top:50%;
+  left:2%;
+  padding:20px;
+  font-size:150%;
+}
+/*endofcontents*/
+
+/*Contact*/
+#Contacts {
+  text-align: center;
+  background-color:#037272;
+  height:100%;
+  width:100%;
+  font-size:150%;
+  border:2px solid white;
+}
+
+#Contacts h1 {
+  position: relative;
+  margin-top:10%;
+  color:white;
+}
+
+.comment {
+  border-radius: 50px;
+  padding:20px;
+}
+  
+.send {
+  margin:10px;
+  border-radius: 50px;
+  padding:10px;
+  color:white;
+  background-color: green;
+  border-color:whitesmoke;
+  height:5%;
+  width:40%;
+  font-size:100%;
+}
+
+.Fname {
+  color:white;
+  margin-left:-10%;
+  font-size:80%;
+}
+
+.fname {
+  padding:10px;
+  border-radius:50px;
+  border:0.5px solid whitesmoke;
+}
+
+.Lname {
+  color:white;
+  font-size:80%;
+}
+
+.lname {
+  padding:10px;
+  border-radius:50px;
+  border:0.5px solid whitesmoke;
+}
+
+
+/*footer*/
+.footer {
+  text-align: center;
+  font-size: 70%;
+  background-color:#B09B2C;
+  padding:10px;
+}
+
+#About {
+  background-color:#1c1f4c;
+  height:100%;
+  width:100%;
+  color:white;
+  font-size: 200%;
+  font-weight: bold;
+  border:2px solid white;
+}
+
+#About h1 {
+  position: relative;
+  margin-top:10%;
+  text-align: center;
+}
+
+#About p {
+  text-align: center;
+}
+
+.vid {
+  position: absolute;
+  bottom:-75%;
+  border:1px solid white;
+}
